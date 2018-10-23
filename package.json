@@ -15,7 +15,7 @@
     "watchExample1": "babel --watch ./client/example1.js --presets react --out-file ./hosted/exampleBundle1.js",
     "watchExample2": "babel --watch ./client/example2.js --presets react --out-file ./hosted/exampleBundle2.js",
     "watchExample3": "babel --watch ./client/example3.js --presets react --out-file ./hosted/exampleBundle3.js",
-    "nodemon": "nodemon --watch ./server ./server/app.js ",
+    "nodemon": "nodemon --watch ./server --watch ./hosted ./server/app.js ",
     "start": "node ./server/app.js",
     "pretest": "eslint ./server --fix",
     "test": "echo \"Tests complete\""
